@@ -1,16 +1,130 @@
-# React + Vite
+🏗️ Dibrika Construcciones – Sitio Web Oficial
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web corporativo desarrollado para Dibrika Construcciones, empresa constructora ubicada en Posadas, Misiones, Argentina.
 
-Currently, two official plugins are available:
+El proyecto fue diseñado con foco en posicionamiento SEO local, rendimiento y optimización para campañas publicitarias en Meta Ads.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Tecnologías Utilizadas
 
-## React Compiler
+⚛️ React
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+⚡ Vite
 
-## Expanding the ESLint configuration
+🎨 Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📊 Meta Pixel (Tracking & Conversion Events)
+
+🌐 SEO Optimization (estructura, meta tags, performance)
+
+🎯 Objetivos del Proyecto
+
+Posicionar a Dibrika Construcciones en búsquedas locales.
+
+Construir presencia digital sólida y profesional.
+
+Optimizar el sitio para campañas de Meta Ads.
+
+Implementar seguimiento de eventos para medición de conversiones.
+
+Garantizar alta performance y carga rápida.
+
+🔎 SEO Implementado
+
+Estructura semántica optimizada (HTML5)
+
+Uso estratégico de keywords locales:
+
+Construcciones en Posadas
+
+Empresa constructora en Misiones
+
+Obras civiles en Posadas
+
+Meta tags optimizados
+
+Open Graph para redes sociales
+
+Sitemap
+
+Robots.txt
+
+Optimización de imágenes
+
+Performance optimizada con Vite
+
+📊 Meta Pixel & Tracking
+
+El sitio incluye integración con Meta Pixel para:
+
+PageView
+
+Lead
+
+Contact
+
+Eventos personalizados
+
+Permite:
+
+Retargeting
+
+Seguimiento de conversiones
+
+Optimización de campañas
+
+Creación de públicos personalizados
+
+⚡ Performance
+
+Bundling optimizado con Vite
+
+CSS optimizado con Tailwind
+
+Lazy loading de recursos
+
+Estructura liviana y modular
+
+Alta puntuación en Lighthouse
+
+📁 Estructura del Proyecto
+src/
+│
+├── components/
+├── pages/
+├── assets/
+├── hooks/
+├── layout/
+└── main.jsx
+
+🛠️ Instalación y Uso
+
+Clonar el repositorio:
+
+git clone https://github.com/tuusuario/dibrika-construcciones.git
+
+
+Instalar dependencias:
+
+npm install
+
+
+Correr en entorno de desarrollo:
+
+npm run dev
+
+
+Build para producción:
+
+npm run build
+
+🌎 Información del Cliente
+
+Dibrika Construcciones
+📍 Posadas, Misiones – Argentina
+🏗️ Especialistas en obras civiles y construcción
+
+👨‍💻 Desarrollo
+
+Desarrollado por Pablo Barrios @ Pbx Digital
+Full Stack Developer – React
+Optimización SEO & Performance
