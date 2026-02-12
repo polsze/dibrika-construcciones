@@ -12,7 +12,7 @@ import { Helmet } from 'react-helmet-async';
  * @param {Object} props.schema - Schema markup adicional
  */
 const SeoMeta = ({ 
-  title = "DIBRIKA Construcciones | Constructora Líder en Posadas, Misiones",
+  title = "DIBRIKA Construcciones | Constructora Posadas, Misiones",
   description = "Especialistas en construcción de viviendas, obra gris, refacciones y obras públicas en Posadas, Misiones. Calidad y confianza desde 2026.",
   keywords = "construcción de casas Posadas, empresa constructora Misiones, obra gris Posadas, refacciones de viviendas Misiones, construcción de viviendas Posadas, constructora en Posadas, obras públicas Misiones",
   canonical = "https://dibrikaconstrucciones.com.ar",
@@ -35,7 +35,7 @@ const SeoMeta = ({
     "telephone": "+543764123456",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Av. Corrientes 1234",
+      "streetAddress": "Bº Altos de Bella Vista",
       "addressLocality": "Posadas",
       "addressRegion": "Misiones",
       "addressCountry": "AR",
@@ -64,8 +64,8 @@ const SeoMeta = ({
       "geoRadius": "50000"
     },
     "sameAs": [
-      "https://facebook.com/dibrikaconstrucciones",
-      "https://instagram.com/dibrikaconstrucciones"
+      "https://www.facebook.com/profile.php?id=61577245474536&locale=es_LA",
+      "https://www.instagram.com/dibrika__construcciones/"
     ]
   };
 
