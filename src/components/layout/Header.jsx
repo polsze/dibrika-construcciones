@@ -202,12 +202,7 @@ const Header = () => {
                   }`}>
                     DIBRIKA <span className="bg-gradient-to-r from-[#d09400] to-[#b07d00] bg-clip-text text-transparent">Construcciones</span>
                   </h1>
-                  <p className={`text-gray-600 transition-all duration-300 ${
-                    scrolled ? 'text-sm' : 'text-lg'
-                  } flex items-center mt-2`}>
-                    <MapPin className="h-5 w-5 mr-1.5 text-[#d09400]" />
-                    {contactInfo.address.city}, {contactInfo.address.province}
-                  </p>
+                  
                 </div>
               </a>
             </div>
