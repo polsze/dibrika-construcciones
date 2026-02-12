@@ -29,7 +29,7 @@ const contactInfo = {
   address: {
     city: "Posadas",
     province: "Misiones",
-    full: "Av. Corrientes 1234, Posadas, Misiones"
+    full: "Bº Altos de Bella Vista, Posadas, Misiones"
   },
   businessHours: {
     weekdays: "Lun a Vie: 8:00 - 18:00",

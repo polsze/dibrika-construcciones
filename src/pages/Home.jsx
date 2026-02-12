@@ -94,7 +94,7 @@ const Home = () => {
         <ul className="space-y-3 mb-10">
           {[
             "✅ Presupuesto detallado sin cargo",
-            "✅ Garantía escrita por 10 años",
+            "✅ Garantía escrita",
             "✅ Materiales de primera calidad",
             "✅ Cumplimiento de plazos garantizado"
           ].map((item, index) => (
