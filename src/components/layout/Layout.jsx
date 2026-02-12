@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { HelmetProvider } from 'react-helmet-async';
 import Header from './Header';
 import Footer from './Footer';
 import SeoMeta from '../ui/SeoMeta';
@@ -11,10 +10,30 @@ const Layout = ({ children, seoProps }) => {
   // Configuración de scripts de seguimiento (modo desarrollo/producción)
   const isProduction = import.meta.env.PROD;
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const backToTopButton = document.getElementById('back-to-top');
+      if (!backToTopButton) return;
+  
+      if (window.scrollY > 300) {
+        backToTopButton.classList.remove('opacity-0', 'pointer-events-none');
+        backToTopButton.classList.add('opacity-100', 'pointer-events-auto');
+      } else {
+        backToTopButton.classList.remove('opacity-100', 'pointer-events-auto');
+        backToTopButton.classList.add('opacity-0', 'pointer-events-none');
+      }
+    };
+  
+    window.addEventListener('scroll', handleScroll);
+  
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   
   
   return (
-    <HelmetProvider>
       <div className="min-h-screen flex flex-col bg-white font-poppins">
         {/* Meta tags globales */}
         <SeoMeta {...seoProps} />
@@ -134,32 +153,15 @@ const Layout = ({ children, seoProps }) => {
           </svg>
         </button>
         
-        {/* Script para mostrar/ocultar botón volver arriba */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.addEventListener('scroll', function() {
-                const backToTopButton = document.getElementById('back-to-top');
-                if (window.scrollY > 300) {
-                  backToTopButton.classList.remove('opacity-0', 'pointer-events-none');
-                  backToTopButton.classList.add('opacity-100', 'pointer-events-auto');
-                } else {
-                  backToTopButton.classList.remove('opacity-100', 'pointer-events-auto');
-                  backToTopButton.classList.add('opacity-0', 'pointer-events-none');
-                }
-              });
-            `
-          }}
-        />
+        
       </div>
-    </HelmetProvider>
   );
 };
 
 // Propiedades por defecto
 Layout.defaultProps = {
   seoProps: {
-    title: "DIBRIKA Construcciones | Constructora Líder en Posadas, Misiones",
+    title: "DIBRIKA Construcciones | Constructora en Posadas, Misiones",
     description: "Especialistas en construcción de viviendas, obra gris, refacciones y obras públicas en Posadas, Misiones. Calidad y confianza desde 2026.",
     keywords: "construcción de casas Posadas, empresa constructora Misiones, obra gris Posadas, refacciones de viviendas Misiones",
     canonical: "https://dibrikaconstrucciones.com.ar",

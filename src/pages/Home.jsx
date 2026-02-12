@@ -27,7 +27,7 @@ import posadasBg from '../assets/images/posadas.jpg';
 
 const Home = () => {
   const seoProps = {
-    title: "DIBRIKA Construcciones | Constructora Líder en Posadas, Misiones",
+    title: "DIBRIKA Construcciones | Constructora Posadas, Misiones",
     description: "Especialistas en construcción de viviendas, obra gris, refacciones y obras públicas en Posadas, Misiones. Calidad y confianza desde 2026.",
     keywords: seoKeywords.home.join(', '),
     canonical: "https://dibrikaconstrucciones.com.ar"
