@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  --color-primary: #d09400;
+  --color-primary-dark: #b07d00;
+  --color-secondary: #004aad;
+  --color-secondary-dark: #003a8a;
+}
+
+/* Estilos personalizados */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl;
+  }
+  
+  .btn-primary {
+    @apply bg-[#d09400] hover:bg-[#b07d00] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-[#004aad] hover:bg-[#003a8a] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300;
+  }
+}
+
+/* Animaciones */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
