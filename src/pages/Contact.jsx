@@ -291,6 +291,7 @@ const Contact = () => {
                       {TELEFONO_PRINCIPAL}
                     </a>
                     <p className="text-gray-600 text-sm mt-1">Lunes a Viernes de 8:00 a 18:00 hs</p>
+                    <p className="text-gray-600 text-sm mt-1">Sabádo de 9:00 a 13:00 hs</p>
                   </div>
                 </div>
 
@@ -653,8 +654,11 @@ const Contact = () => {
               </a>
             </div>
 
-            <p className="text-white/70 mt-8">
+            <p className="text-white/70 mt-8 mb-2">
               Horario de atención telefónica: Lunes a Viernes 8:00 - 18:00 hs
+            </p>
+            <p className="text-white/70">
+            Sábado: 9:00 - 13:00 hs
             </p>
           </motion.div>
         </div>

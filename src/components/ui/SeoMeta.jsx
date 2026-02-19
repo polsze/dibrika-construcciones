@@ -13,7 +13,7 @@ import { Helmet } from 'react-helmet-async';
  */
 const SeoMeta = ({ 
   title = "DIBRIKA Construcciones | Constructora Posadas, Misiones",
-  description = "Especialistas en construcción de viviendas, obra gris, refacciones y obras públicas en Posadas, Misiones. Calidad y confianza desde 2026.",
+  description = "Constructora de viviendas en Posadas, Misiones. Ofrecemos financiamiento y entrega rápida. Tu casa lista con calidad y confianza desde 2012",
   keywords = "construcción de casas Posadas, empresa constructora Misiones, obra gris Posadas, refacciones de viviendas Misiones, construcción de viviendas Posadas, constructora en Posadas, obras públicas Misiones",
   canonical = "https://dibrikaconstrucciones.com.ar",
   ogImage = "/og-default.jpg",
@@ -29,7 +29,7 @@ const SeoMeta = ({
     "@context": "https://schema.org",
     "@type": "ConstructionBusiness",
     "name": "DIBRIKA Construcciones",
-    "description": "Empresa constructora especializada en viviendas, obra gris, refacciones y obras públicas en Posadas, Misiones",
+    "description": "Empresa constructora especializada en viviendas, obra gris, refacciones y obras públicas en Posadas, Misiones. Ofrecemos financiamiento y entrega rápida.",
     "url": siteUrl,
     "logo": `${siteUrl}/logo.png`,
     "telephone": "+543764123456",
@@ -132,7 +132,7 @@ const SeoMeta = ({
 
 // Propiedades por defecto para diferentes páginas
 SeoMeta.defaultProps = {
-  keywords: "construcción de casas Posadas, empresa constructora Misiones, obra gris Posadas, refacciones de viviendas Misiones, construcción de viviendas Posadas, constructora en Posadas, obras públicas Misiones, quinchos y piletas Posadas, presupuesto construcción Misiones",
+  keywords: "construcción de casas Posadas, empresa constructora Misiones, obra gris Posadas, refacciones de viviendas Misiones, construcción de viviendas Posadas, constructora en Posadas, obras públicas Misiones, quinchos y piletas Posadas, presupuesto construcción Misiones, construcción piletas en Posadas",
 };
 
 export default SeoMeta;

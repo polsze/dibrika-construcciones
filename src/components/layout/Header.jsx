@@ -465,6 +465,7 @@ const Header = () => {
                       <div>
                         <p className="text-sm font-medium text-gray-900">Horarios</p>
                         <p className="text-sm text-gray-600">{contactInfo.businessHours.weekdays}</p>
+                        <p className="text-sm text-gray-600">{contactInfo.businessHours.saturday}</p>
                       </div>
                     </div>
                   </div>
